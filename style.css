@@ -1,0 +1,33 @@
+/*
+  Styles that are the same no matter what
+*/
+
+body {
+    background-color: rgb(186, 186, 226);
+  }
+  
+  h1 {
+    text-align: center;
+    color: gold;
+    text-shadow: 5px 5px 5px black;
+  }
+  
+  #recipes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  
+  }
+  
+  .card {
+    background-color: white;
+    margin: 5px;
+    width: 150px;
+    font-size: .7rem;
+    padding: 1%;
+    box-shadow: 0px 5px 5px black;
+  }
+  
+  .card>img {
+    width: 100%
+  }

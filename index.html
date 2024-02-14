@@ -5,7 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
-    <title>Document</title>
+    <title>Party Planner</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Party Planner</h1>
+
+    <!-- Form to add a new party-->
+    <form id="addPartyForm">
+      <label for="partyName">Party Name:</label>
+      <input type="text" id="partyName" required />
+
+      <label for="partyDate">Party Date:</label>
+      <input type="date" id="partyDate" required />
+
+      <label for="partyTime">Party Time:</label>
+      <input type="time" id="partytime" required />
+
+      <label for="partyLocation">Party Location:</label>
+      <input type="text" id="partyLocation" required />
+
+      <label for="partyDescription">Party Description:</label>
+      <textarea id="partyDescription" cols="30" rows="5" required></textarea>
+
+      <button type="submit">Add Party</button>
+    </form>
+
+    <!-- Display list of parties -->
+    <ul id="partyList"></ul>
+  </body>
 </html>
